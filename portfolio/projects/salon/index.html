@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Unisex Salon — Luxury Hair & Styling</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { background-color: #0b0c10; color: #f4f4f4; font-family: 'Inter', sans-serif; padding: 2rem; }
+    .header { text-align: center; margin-bottom: 2.5rem; }
+    .title { font-family: 'Cormorant Garamond', serif; font-size: 3rem; letter-spacing: 0.15em; color: #c5a059; text-transform: uppercase; }
+    .subtitle { font-size: 0.9rem; letter-spacing: 0.2em; color: #a7a8b3; margin-top: 0.5rem; }
+    .contact-banner { background: #1f2833; border: 1px solid rgba(197, 160, 89, 0.4); border-radius: 12px; max-width: 1000px; margin: 0 auto 2.5rem auto; padding: 1.25rem 2rem; text-align: center; display: flex; align-items: center; justify-content: space-around; flex-wrap: wrap; gap: 1rem; }
+    .contact-info { display: flex; align-items: center; gap: 0.5rem; font-size: 1rem; color: #ffffff; font-weight: 500; }
+    .contact-phone { color: #c5a059; font-weight: 600; text-decoration: none; font-size: 1.1rem; letter-spacing: 0.05em; }
+    .contact-phone:hover { text-decoration: underline; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1000px; margin: 0 auto; }
+    .card { background: #1f2833; border: 1px solid rgba(197, 160, 89, 0.2); border-radius: 12px; overflow: hidden; transition: transform 0.3s ease; }
+    .card:hover { transform: translateY(-5px); border-color: #c5a059; }
+    .card-img { width: 100%; height: 200px; object-fit: cover; }
+    .card-body { padding: 1.5rem; }
+    .card-title { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: #c5a059; margin-bottom: 0.5rem; }
+    .card-desc { font-size: 0.85rem; color: #c5c6c7; line-height: 1.6; }
+    .btn { display: inline-block; margin-top: 1rem; padding: 0.6rem 1.2rem; background: #c5a059; color: #0b0c10; text-decoration: none; border-radius: 20px; font-size: 0.8rem; letter-spacing: 0.1em; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 class="title">Infinity Unisex Salon</h1>
+    <p class="subtitle">HAIR ARCHITECTURE // BESPOKE STYLING // LUXURY</p>
+  </div>
+
+  <div class="contact-banner">
+    <div class="contact-info">
+      <span>📞 CALL / APPOINTMENTS:</span>
+      <a href="tel:+919812345678" class="contact-phone">+91 98123 45678</a>
+    </div>
+    <div class="contact-info">
+      <span>💬 WHATSAPP BOOKING:</span>
+      <a href="https://wa.me/919812345678" target="_blank" class="contact-phone">+91 98123 45678</a>
+    </div>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80" alt="Precision Haircuts" class="card-img">
+      <div class="card-body">
+        <h3 class="card-title">Precision Haircuts</h3>
+        <p class="card-desc">Bespoke cutting and tailoring customized for facial structure and personal hair aesthetic.</p>
+        <a href="tel:+919812345678" class="btn">BOOK STYLIST (+91 98123 45678)</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80" alt="Artisanal Hair Color" class="card-img">
+      <div class="card-body">
+        <h3 class="card-title">Artisanal Color & Balayage</h3>
+        <p class="card-desc">Custom dimensional coloring using organic, shine-enhancing botanical pigments.</p>
+        <a href="tel:+919812345678" class="btn">CALL FOR PALETTES (+91 98123 45678)</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
